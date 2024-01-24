@@ -44,5 +44,4 @@ captchas.verifyCaptcha = () => (req: Request, res: Response, next: NextFunction)
     next(error)
   })
 }
-
 module.exports = captchas
